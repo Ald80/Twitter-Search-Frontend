@@ -1,0 +1,30 @@
+.form-control {
+    background-color: #253341;
+    color: #8899A6;
+}
+
+.form-control:focus {
+    background-color: #111a22;
+    color: #ffffff;
+    border-color: #1da1f2;
+    box-shadow: none;
+}
+
+.search-field {
+    margin-top: 80px;
+    /* margin-bottom: 50px; */
+}
+
+.search-button {
+    margin-top: 30px;
+    background-color: #202327;
+    /* color: #71767B; */
+    color: #8899A6;
+    border-color: #8899A6;
+}
+
+.search-button:hover {
+    border-color: #1da1f2;
+    background-color: #111a22;
+    color: #1da1f2;
+}    
