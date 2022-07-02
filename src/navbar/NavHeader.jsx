@@ -4,7 +4,7 @@ import './NavHeader.css';
 import { Navbar } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
 
-function NavHeader() {
+export default function NavHeader() {
   return (
     <Navbar bg="light" expand="lg" className="bg-dark navbar-twitter">
       <Image src={twitter_logo} style={{ "margin-left": "40px" }} rounded className="twitter-logo bg-dark" />
@@ -14,5 +14,3 @@ function NavHeader() {
     </Navbar>
   );
 }
-
-export default NavHeader;

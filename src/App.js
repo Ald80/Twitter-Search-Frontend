@@ -1,12 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
-import NavHeader from './navbar/NavHeader'
+import Search from './search/Search';
 
-function App() {
+export default function App() {
   return (
     <Routes>
-      <Route path='/' element={<NavHeader />} />
+      <Route path='/' element={<Search />} />
     </Routes>
-  );
+  )
 }
-
-export default App;
