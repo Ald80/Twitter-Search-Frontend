@@ -1,4 +1,5 @@
 .form-control {
+    height: 38px;
     background-color: #253341;
     color: #8899A6;
 }
@@ -10,10 +11,10 @@
     box-shadow: none;
 }
 
-.search-field {
-    margin-top: 80px;
+/* .search-field { */
+    /* margin-top: 80px; */
     /* margin-bottom: 50px; */
-}
+/* } */
 
 .search-button {
     margin-top: 30px;
@@ -24,8 +25,85 @@
     margin-bottom: 150px;
 }
 
+.input-group-text {
+    background-color: #253341 !important;
+    color: #8899A6 !important;
+}
+
+.input-group-text:hover {
+    background-color: white !important;
+    color: #111a22 !important;
+    border-color: white !important;
+    box-shadow: none !important;
+}
+
+/* .search-icon { */
+    /* https://search.brave.com/ */
+    /* https://you.com/ */
+    /* .dJNUEz { */
+        /* pointer-events: none; */
+        /* display: block; */
+        /* width: 2px; */
+        /* height: 32px; */
+        /* border-radius: 2px; */
+        /* background-color: rgba(26, 26, 196, 0.5); */
+        /* margin-right: calc(-2px + 0.5rem); */
+/* } */
+
 .search-button:hover {
     border-color: #1da1f2;
     background-color: #111a22;
     color: #1da1f2;
-}    
+}
+
+.search-submit {
+    height: 38px;
+    background-color: #253341 !important;
+    color: #8899A6 !important;
+    border-color: #CED4D9;
+}
+
+.search-submit:focus {
+    height: 38px;
+    background-color: #111a22;
+    color: #ffffff;
+    border-color: #1da1f2;
+    box-shadow: none;
+}
+
+.search-submit:hover {
+    background-color: white !important;
+    color: #111a22 !important;
+    border-color: #CED4D9;
+
+}
+
+.chart-color-indicator {
+    /* background-color: "#67e0a5";  */
+    
+    width: 8px;
+    height: 8px; 
+    border-radius: 1px;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    margin-right: 7px;
+    display: inline-block;
+}
+
+.positive-color-indicator {
+    background-color: #1A651A;
+}
+
+
+.negative-color-indicator {
+   background-color: #800000; 
+}
+
+
+.neutral-color-indicator {
+   background-color: #323232; 
+}
+
+/* #800000 negative color */
+/* #1A651A positive color */
+/* #323232 neutral color */

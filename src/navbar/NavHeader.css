@@ -5,6 +5,10 @@
     height: 45px ;
 }
 
-a.navbar-twitter {
+.navbar-twitter-text {
     color: white !important;
+}
+
+.navbar-twitter {
+    margin-bottom: 110px;
 }

@@ -9,7 +9,7 @@ export default function NavHeader() {
     <Navbar bg="light" expand="lg" className="bg-dark navbar-twitter">
       <Image src={twitter_logo} style={{ "margin-left": "40px" }} rounded className="twitter-logo bg-dark" />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Brand style={{ "padding-left": "80px" }} href="#" className="navbar-twitter">Twitter</Navbar.Brand>
+          <Navbar.Brand style={{ "padding-left": "80px" }} href="#" className="navbar-twitter-text">Twitter</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
     </Navbar>
   );
